@@ -1,0 +1,21 @@
+body{
+    /*background-color: rgba(5, 27, 62, 0.743) ;*/
+    /* background-color: (to right, #011426, #3f0b0b0d) */
+}
+.gradient-background {
+    background: linear-gradient(to right,#49769c, #293f52);
+  }
+  
+#todo-heading,
+#local-date{
+    display: flex;
+    justify-content: center;
+    color:white; 
+}
+#button-addon1{
+    color:white;
+}
+#clearAll-btn{
+    background-color: white;
+    color: black;
+}
