@@ -62,6 +62,14 @@ document.getElementById("button-addon1").addEventListener("click", function () {
   });
 });
 
+// Listen for Enter key press on the input element
+document.getElementById("todo-input").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault(); // Prevent the default Enter key behavior (e.g., new line)
+      document.getElementById("button-addon1").click(); // Trigger the button click event
+    }
+  })
+
 document.getElementById("clearAll-btn").addEventListener("click", function () {
   const listParent = document.getElementById("todo-list");
   while (listParent.firstChild) {
