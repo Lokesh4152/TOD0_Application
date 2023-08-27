@@ -1,10 +1,13 @@
 body{
+        background-image: url("https://images.pexels.com/photos/5717409/pexels-photo-5717409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); /* Replace with the actual path to your image */
+        background-size: cover; /* Adjust how the image covers the background */
+        /* background-repeat: no-repeat; Prevent the image from repeating */
     /*background-color: rgba(5, 27, 62, 0.743) ;*/
     /* background-color: (to right, #011426, #3f0b0b0d) */
 }
-.gradient-background {
+/* .gradient-background {
     background: linear-gradient(to right,#49769c, #293f52);
-  }
+  } */
   
 #todo-heading,
 #local-date{
