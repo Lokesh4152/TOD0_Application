@@ -1,4 +1,5 @@
-# To-Do List Web App Readme
+# To-Do List Web App 
+
 
 This repository contains the source code for a simple To-Do List web application built using HTML, CSS, and JavaScript. The app allows users to add and remove tasks, mark them as completed with strikethrough, and persist their tasks in local storage. Below, you'll find an overview of the code and its functionality.
 
